@@ -232,4 +232,34 @@
     font-size: 2rem;
     margin-right: 7rem;
   }
+
+  .section-6-last {
+    grid-template-columns: 1fr;
+    width: 60rem;
+    justify-items: center;
+    margin: 4rem 12rem 0 12rem;
+  }
+  .left,
+  .right {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .section-5-bottom-icons {
+    grid-template-columns: 1fr;
+  }
+
+  .section-6-arrow-1,
+  .section-6-arrow-2 {
+    width: 0rem;
+    border: none;
+  }
+
+  .section-7-top-icons {
+    grid-template-columns: 1fr;
+  }
+
+  .section-7-top-icons-inner {
+    flex-direction: column;
+  }
 }

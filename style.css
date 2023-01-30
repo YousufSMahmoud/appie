@@ -559,7 +559,7 @@ Start of Section 3
 
 .section-5-bottom-icons {
   display: grid;
-  /* grid-template-columns: 2fr 1fr; */
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   align-items: ;
   width: 100%;
@@ -1022,18 +1022,24 @@ Start of Section 3
 }
 
 .section-7-top-icons {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+}
+
+.section-7-icons-1,
+.section-7-icons-2 {
+  display: flex;
 }
 
 .section-7-top-icons-inner {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
-  margin: 2rem 0;
+  flex-direction: row;
+  gap: 4rem;
 }
 
+.section-7-top {
+  grid-template-rows: 1fr;
+}
 .sponsers-logo {
   padding: 2rem;
   background-color: rgba(255, 255, 255, 1);
