@@ -665,7 +665,6 @@ Start of Section 3
   display: grid;
   grid-template-rows: 1fr 1.5fr 0.8fr;
   background: rgba(254, 254, 254, 1);
-  position: relative;
 }
 
 .section-6-top {
