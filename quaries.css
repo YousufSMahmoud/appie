@@ -166,7 +166,8 @@
   .main-nav,
   .section-4-top,
   .section-4-body-right,
-  .section-4-body-left {
+  .section-4-body-left,
+  .section-4-body-left-items {
     max-width: 77rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -351,7 +352,8 @@
   .main-nav,
   .section-4-top,
   .section-4-body-right,
-  .section-4-body-left {
+  .section-4-body-left,
+  .section-4-body-left-items {
     max-width: 60rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -359,6 +361,7 @@
     align-items: center;
     justify-items: center;
     align-items: center;
+    margin: 0;
   }
 
   .section-7-footer {
@@ -396,7 +399,8 @@
   .main-nav,
   .section-4-top,
   .section-4-body-right,
-  .section-4-body-left {
+  .section-4-body-left,
+  .section-4-body-left-items {
     max-width: 50rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -407,6 +411,7 @@
     margin: 0;
     border: 0;
     border: 0;
+    font-size: 1rem;
   }
   .section-7-footer {
     max-width: 50rem;
@@ -414,5 +419,74 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .section-5-top-icons-1 {
+    padding: 3rem 13rem;
+  }
+
+  .section-6-top-h2 {
+    font-size: 2rem;
+  }
+  .section-6-top-h4,
+  .section-6-top-p {
+    font-size: 1rem;
+  }
+
+  .section-top-buttons {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .section-top-buttons-apple,
+  .section-top-buttons-android {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .section-7,
+  .section-6,
+  .section-5,
+  .section-4,
+  .section-3,
+  .section-2-parent,
+  .first-section,
+  .section-6-top,
+  .section-6-bottom-second,
+  .section-4-top,
+  .section-6-second-first,
+  .section-7-line,
+  .funny,
+  .section-6-left,
+  .section-6-middle,
+  .section-6-right,
+  .section-6-last,
+  .main-nav,
+  .section-4-top,
+  .section-4-body-right,
+  .section-4-body-left,
+  .section-4-body-left-items {
+    max-width: 36rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    border: 0;
+    font-size: 1rem;
+  }
+  .customers-logos img {
+    margin-right: -3rem;
+  }
+  .customers-parent {
+    margin: 2rem 0 0 3rem;
+  }
+
+  .section-5-top-icons-1 {
+    padding: 3rem 10rem;
   }
 }
