@@ -87,12 +87,26 @@
 @media (max-width: 56em) {
   html {
     font-size: 64%;
-    width: 89.6rem;
   }
 
   .main-nav-list li {
     position: absolute;
     right: 1000rem;
+  }
+  .section-7-top-icons-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .lastsponser {
+    display: flex;
+    justify-content: center;
   }
 
   .section-5-bottom {
@@ -130,8 +144,23 @@
   .section-4,
   .section-3,
   .section-2-parent,
-  .first-section {
-    max-width: 84rem;
+  .first-section,
+  .section-6-top,
+  .section-6-bottom,
+  .section-6-bottom-second,
+  .section-4-top,
+  .section-6-second-first,
+  .section-7-line,
+  .funny,
+  .section-6-left,
+  .section-6-middle,
+  .section-6-right,
+  .section-6-last,
+  .main-nav,
+  .section-4-top,
+  .section-4-body-right,
+  .section-4-body-left {
+    max-width: 77rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     justify-content: center;
@@ -216,6 +245,19 @@
     margin: 0;
   }
 
+  .section-7-one,
+  .section-7-two,
+  .section-7-three,
+  .section-7-four,
+  .section-7-footer-a {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .section-7-a {
+    justify-content: center;
+  }
+
   .line {
     width: 15rem;
   }
@@ -261,5 +303,105 @@
 
   .section-7-top-icons-inner {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 50em) {
+  .main-nav {
+    max-width: 74rem;
+  }
+
+  .section-1-sticky-icon-div {
+    position: fixed;
+    height: 2rem;
+    width: 2rem;
+    bottom: 3rem;
+    right: 6.5rem;
+    color: #ff3e66;
+  }
+
+  .section-7,
+  .section-6,
+  .section-5,
+  .section-4,
+  .section-3,
+  .section-2-parent,
+  .first-section,
+  .section-6-top,
+  .section-6-bottom-second,
+  .section-4-top,
+  .section-6-second-first,
+  .section-7-line,
+  .funny,
+  .section-6-left,
+  .section-6-middle,
+  .section-6-right,
+  .section-6-last,
+  .main-nav,
+  .section-4-top,
+  .section-4-body-right,
+  .section-4-body-left {
+    max-width: 60rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .section-7-footer {
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 34em) {
+  .html {
+  }
+  .main-nav {
+    width: 50rem;
+  }
+
+  .section-7,
+  .section-6,
+  .section-5,
+  .section-4,
+  .section-3,
+  .section-2-parent,
+  .first-section,
+  .section-6-top,
+  .section-6-bottom-second,
+  .section-4-top,
+  .section-6-second-first,
+  .section-7-line,
+  .funny,
+  .section-6-left,
+  .section-6-middle,
+  .section-6-right,
+  .section-6-last,
+  .main-nav,
+  .section-4-top,
+  .section-4-body-right,
+  .section-4-body-left {
+    max-width: 50rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    border: 0;
+    border: 0;
+  }
+  .section-7-footer {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
