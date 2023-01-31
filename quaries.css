@@ -18,6 +18,9 @@
     border: 0.1rem solid gray;
     box-shadow: rgba(100, 100, 100, 1) 0.1rem 0.1rem 0.1rem 0.1rem;
   }
+  .section-3-p-first {
+    margin-top: 3rem;
+  }
   .line {
     width: 20rem;
     border-top: 0.1rem solid black;
@@ -87,6 +90,10 @@
 @media (max-width: 56em) {
   html {
     font-size: 64%;
+  }
+
+  .section-3-p-first {
+    margin-top: 2rem;
   }
 
   .main-nav-list li {
@@ -309,6 +316,10 @@
 @media (max-width: 50em) {
   .main-nav {
     max-width: 74rem;
+  }
+
+  .section-3-p-first {
+    margin-top: 0;
   }
 
   .section-1-sticky-icon-div {
